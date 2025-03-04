@@ -18,10 +18,11 @@ public class aula02 {
         double altura = ler.nextDouble(); //double : representa um número decimal, com casas decimais
         System.out.println("Diga se está empregado:");
         boolean empregado = ler.nextBoolean(); //boolean : representa um valor lógico, verdadeiro ou falso
-        System.out.println("nome: " + nome);
-        System.out.println("sexo: " + sexo);
-        System.out.println("idade: " + idade);
-        System.out.println("altura: " + altura);
-        System.out.println("empregado: " + empregado);
+        System.out.println(String.format("nome: %s", nome));
+        System.out.println(String.format("sexo: %c", sexo));
+        System.out.println(String.format("idade: %d", idade));
+        System.out.println(String.format("altura: %.2f", altura));
+        System.out.println(String.format("empregado: %b", empregado));
+
     }
 }

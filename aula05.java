@@ -38,9 +38,9 @@ public class aula05 {
         System.out.println("Digite a quantidade de patinhos: ");
         int patinhos = sc.nextInt();
         while (patinhos > 1) {
-            System.out.println(patinhos +" patinhos foram passear, além das montanhas para brincar. \n A mamãe gritou  quá, quá, quá, qúa \n mas só " + patinhos-- +" patinhos voltaram de lá \n");
+            System.out.println(patinhos +" patinhos foram passear, além das montanhas para brincar. \n A mamãe gritou quá, quá, quá, qúa \n mas só " + patinhos-- +" patinhos voltaram de lá \n");
         }
-        System.out.println("1 patinho foi passear, além das montanhas para brincar. \n A mamãe gritou  quá, quá, quá, qúa \n mas todos os patinhos voltaram de lá");
+        System.out.println("1 patinho foi passear, além das montanhas para brincar. \n A mamãe gritou quá, quá, quá, qúa \n mas todos os patinhos voltaram de lá");
         // while: Executa o loop enquanto a condição for verdadeira.
     }
 }
